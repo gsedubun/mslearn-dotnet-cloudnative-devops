@@ -9,7 +9,7 @@ env:
   # Local environment variables used later in the workflow
   AZURE_CONTAINER_REGISTRY: 'acseshop1'
   CONTAINER_NAME: 'productservice'
-  RESOURCE_GROUP: 'rg-eshop'
+  RESOURCE_GROUP: 'dev_sims'
   CLUSTER_NAME: 'aks-eshop'
   DEPLOYMENT_MANIFEST_PATH: './product.yml'
   DOCKER_PATH: './DockerfileProducts'
